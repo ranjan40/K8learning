@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod3
+spec:
+  containers:
+  - name: ranjan-java-docker
+    image: ranjanraku/my-java-docker
+    ports:
+  - containerPort: 8080
